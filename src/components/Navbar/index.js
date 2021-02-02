@@ -1,63 +1,61 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
+import logo from "../../images/logo.jpg" 
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
 
-function Navbar() {
+function Navigation() {
+  const [expanded, setExpanded] = useState(false);
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <Navbar collapseOnSelect expand="lg" bg="light" variant="light" expanded={expanded} >
+      <Navbar.Brand>
         <Link className="navbar-brand" to="/">
-          <img alt="logo"/>
+          <img src={logo} alt="logo" style={{width:"50px", height:"50px"}}/>
         </Link>
-        <div>
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <Link
-                to="/"
-                className={
-                  window.location.pathname === "/" || window.location.pathname === "/home"
-                    ? "nav-link active"
-                    : "nav-link"
-                }
-              >
-                HOME
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/about"
-                className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")} />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="mr-auto">
+            <Link
+              to="/"
+              className={window.location.pathname === "/" || window.location.pathname === "/home" ? "nav-link active" : "nav-link"}
+              onClick={() => setExpanded(false)}
+            >
+              HOME
+            </Link>
+            <Link
+              to="/about"
+              className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
+              onClick={() => setExpanded(false)}
               >
                 ABOUT
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/focus"
-                className={window.location.pathname === "/focus" ? "nav-link active" : "nav-link"}
-              >
-                FOCUS
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/portfolio"
-                className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
-              >
-                PORTFOLIO
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/resume"
-                className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}
-              >
-                RESUME
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
+            </Link>
+            <Link
+              to="/focus"
+              className={window.location.pathname === "/focus" ? "nav-link active" : "nav-link"}
+              onClick={() => setExpanded(false)}
+            >
+              FOCUS
+            </Link>
+            <Link
+              to="/portfolio"
+              className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+              onClick={() => setExpanded(false)}
+            >
+              PORTFOLIO
+            </Link>
+            <Link
+              to="/resume"
+              className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}
+              onClick={() => setExpanded(false)}
+            >
+              RESUME
+            </Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
     );
   }
 
-  export default Navbar;
+  export default Navigation;

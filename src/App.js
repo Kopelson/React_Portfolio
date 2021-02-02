@@ -5,7 +5,7 @@ import Focus from "./pages/Focus";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
-import Navbar from "./components/Navbar";
+import Navigation from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 
@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
       <div>
-        <Navbar />
+        <Navigation />
         <Wrapper>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
