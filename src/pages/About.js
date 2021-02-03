@@ -1,6 +1,4 @@
 import React from "react";
-import myPic from "../images/me.png"
-
 
 const styles = {
     imageChange: {
@@ -15,7 +13,7 @@ function About(){
         <article className="container-fluid">
             <section className="col-lg-6 mx-auto mb-5 pb-5">
                 <div className="col-lg-6">
-                    <img src={myPic} alt="Ken Kopelson" style={styles.imageChange}/> 
+                    <img src="./images/me.png" alt="Ken Kopelson" style={styles.imageChange}/> 
                 </div>
                 <div className="col-lg-6">
                     <h2 className="mt-5" >About Me:</h2>

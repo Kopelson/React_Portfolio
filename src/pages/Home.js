@@ -1,8 +1,7 @@
 import React from "react";
-import background from "../images/resumebackground.JPG";
 const styles = {
     backgroundImage: {
-        backgroundImage: `url(${background})`,
+        backgroundImage: `url("./images/resumebackground.JPG")`,
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover"

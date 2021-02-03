@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./style.css";
-import logo from "../../images/logo.jpg" 
+import "./style.css"; 
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 
@@ -11,7 +10,7 @@ function Navigation() {
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light" expanded={expanded} >
       <Navbar.Brand>
         <Link className="navbar-brand" to="/">
-          <img src={logo} alt="logo" style={{width:"50px", height:"50px"}}/>
+          <img src="./images/logo.jpg" alt="logo" style={{width:"50px", height:"50px"}}/>
         </Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")} />

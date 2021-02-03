@@ -1,6 +1,4 @@
 import React from "react";
-import tree from "../images/tree1.jpg";
-import pdf from "../pdf/KennethKopelson_Resume.pdf"
 
 const styles= {
     imageChange: {
@@ -14,9 +12,9 @@ function Resume(){
     return(
         <article className="container-fluid">
             <section className="col-lg-4 mx-auto text-center mb-5">
-                <img src={tree} alt="tree" style={styles.imageChange}/>
+                <img src="./images/tree1.jpg" alt="tree" style={styles.imageChange}/>
                 <h2 className="mt-5">Dig a little deeper.</h2>
-                <a href={pdf} alt="PDF of Resume" target="_blank" rel="noreferrer" className="btn btn-dark">Resume</a>
+                <a href="./data/KennethKopelson_Resume.pdf" alt="PDF of Resume" target="_blank" rel="noreferrer" className="btn btn-dark">Resume</a>
             </section>
         </article>
     );

@@ -5,9 +5,7 @@ import "./Portfolio.css";
 import Project from "../components/Project";
 import data from "../data/project.json";
 
-
-function Portfolio(){      
-
+function Portfolio(){
     return(
         <article className="row page tab-pane fade show mx-auto mb-5">
             <div className="col-lg-6 mx-auto text-center">

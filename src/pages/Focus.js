@@ -1,5 +1,4 @@
 import React from "react";
-import stockPhoto from "../images/StockSnap1.jpg";
 
 const styles = {
     imageChange: {
@@ -24,7 +23,7 @@ function Focus(){
                     </ul>
                     </div>
                     <div className="col-lg-6">
-                    <img src={stockPhoto} alt="office" style={styles.imageChange} /> 
+                    <img src="./images/StockSnap1.jpg" alt="office" style={styles.imageChange} /> 
                     </div>        
                 </section> 
         </article>
