@@ -1,4 +1,49 @@
-# Getting Started with Create React App
+# React Portfolio
+## Description
+ <p>Welcome to my full stack portfolio! I designed a responsive website to show off the different projects I have been working on. I used React to create a mobile responsive portfolio. Feel free to take a look at how I used React to create my website.
+
+Thanks!
+
+Kenneth Kopelson</p>
+
+## Overview
+ * Project link: https://kopelson.github.io/React_Portfolio/#/
+
+
+
+### Home & Focus Page
+
+
+
+### Portfolio
+
+
+### About
+
+
+### Resume
+
+
+### Mobile First Design
+
+
+
+
+
+## Self imposed rules
+
+
+
+
+## License
+Feel free to use any part of my code but please do not reuse any of my personal information and/or pictures without direct consent from me. Do not try to contact me for any reason other than business opportunities.
+
+## Badges
+<a href="https://img.shields.io/badge/HTML-8.0%25-red"><img alt="HTML usage" src="https://img.shields.io/badge/HTML-8.0%25-red"></a> <a href="https://img.shields.io/badge/CSS-5.4%25-purple"><img alt="CSS usage" src="https://img.shields.io/badge/CSS-5.4%25-purple"></a> <a href="https://img.shields.io/badge/JavaScript-86.6%25-yellow"><img alt="Javascript usage" src="https://img.shields.io/badge/JavaScript-86.6%25-yellow"></a> <a href="https://img.shields.io/badge/Frameworks-Bootstrap-blue"><img alt="Bootstrap framework" src="https://img.shields.io/badge/Frameworks-Bootstrap-blue"></a> <a href="https://img.shields.io/badge/Library-React-blue"><img alt="React" src="https://img.shields.io/badge/Library-React-blue"></a>
+
+# React
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
