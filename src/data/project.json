@@ -94,8 +94,8 @@
             "_id": 10,
             "cardTitle": "Node README Generator",
             "cardText": "This is a terminal based application to produce professional looking README md files.",
-            "src": "./images/passwordGenerator.png",
-            "alt": "Node ReadMe Generato",
+            "src": "./images/nodeReadmeGenerator.PNG",
+            "alt": "Node ReadMe Generator",
             "github": "https://github.com/Kopelson/nodeREADMEGenerator",
             "project": "",
             "demonstration": "https://www.youtube.com/watch?v=24iaJGACyec"
