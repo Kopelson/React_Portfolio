@@ -12,21 +12,40 @@ Kenneth Kopelson</p>
 ![main](https://user-images.githubusercontent.com/57735283/106824570-f1bf1b80-6637-11eb-82d7-2b09003d0965.PNG)
 
 ### Menu
-![menu](https://user-images.githubusercontent.com/57735283/106824572-f257b200-6637-11eb-99fb-1cd02758ae05.PNG)
+
 ### About
-![about](https://user-images.githubusercontent.com/57735283/106824568-f1268500-6637-11eb-885a-34b14e93645f.PNG)
+
 
 ### Portfolio
-![portfolio](https://user-images.githubusercontent.com/57735283/106824573-f257b200-6637-11eb-9553-a3929c604d78.PNG)
+
 
 ### Focus
-![focus](https://user-images.githubusercontent.com/57735283/106824569-f1bf1b80-6637-11eb-986e-0ab3515c3681.PNG)
+
 
 ### Resume
-![resume](https://user-images.githubusercontent.com/57735283/106824574-f257b200-6637-11eb-93d2-29e04a054ebe.PNG)
+
 
 ## Self imposed rules
 
+Updated Portfolio:
+* Links to your GitHub profile & LinkedIn page as well as your email address and phone number
+* A link to a PDF of your resume with updated projects
+* A list of projects. For each project, make sure you have the following:
+* Project title
+* Link to the deployed version
+* Link to the GitHub repository
+* GIF or screenshot of the deployed application
+
+Design:
+* Mobile-first design
+* Choose a color palette for your site so it doesn't just look like the default bootstrap theme or an unstyled HTML site.
+* Make sure the font size is large enough to read, and that the colors don't cause eye strain.
+
+ Portfolio includes the following:
+* A Header component that appears on multiple pages
+* A single Project component that will be used multiple times on a single page
+* Navigation with React Router, dynamic rendering, or another third part router
+* A Footer component that appears on multiple pages
 
 
 
