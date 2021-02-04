@@ -8,27 +8,22 @@ Kenneth Kopelson</p>
 
 ## Overview
  * Project link: https://kopelson.github.io/React_Portfolio/#/
+ 
+![main](https://user-images.githubusercontent.com/57735283/106824570-f1bf1b80-6637-11eb-82d7-2b09003d0965.PNG)
 
-
-
-### Home & Focus Page
-
-
+### Menu
+![menu](https://user-images.githubusercontent.com/57735283/106824572-f257b200-6637-11eb-99fb-1cd02758ae05.PNG)
+### About
+![about](https://user-images.githubusercontent.com/57735283/106824568-f1268500-6637-11eb-885a-34b14e93645f.PNG)
 
 ### Portfolio
+![portfolio](https://user-images.githubusercontent.com/57735283/106824573-f257b200-6637-11eb-9553-a3929c604d78.PNG)
 
-
-### About
-
+### Focus
+![focus](https://user-images.githubusercontent.com/57735283/106824569-f1bf1b80-6637-11eb-986e-0ab3515c3681.PNG)
 
 ### Resume
-
-
-### Mobile First Design
-
-
-
-
+![resume](https://user-images.githubusercontent.com/57735283/106824574-f257b200-6637-11eb-93d2-29e04a054ebe.PNG)
 
 ## Self imposed rules
 
