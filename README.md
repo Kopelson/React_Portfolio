@@ -12,18 +12,21 @@ Kenneth Kopelson</p>
 ![main](https://user-images.githubusercontent.com/57735283/106824570-f1bf1b80-6637-11eb-82d7-2b09003d0965.PNG)
 
 ### Menu
+![menu](https://user-images.githubusercontent.com/57735283/106829015-29ca5c80-6640-11eb-9b24-7fd288e3f43e.gif)
 
 ### About
-
+![about](https://user-images.githubusercontent.com/57735283/106829008-23d47b80-6640-11eb-8e16-f39aa5c794ea.gif)
 
 ### Portfolio
-
+![portfolio](https://user-images.githubusercontent.com/57735283/106829023-2d5de380-6640-11eb-9840-49721a5897bf.gif)
 
 ### Focus
-
+![focus](https://user-images.githubusercontent.com/57735283/106829009-2505a880-6640-11eb-8bee-67b4d0081df8.gif)
 
 ### Resume
+![resume](https://user-images.githubusercontent.com/57735283/106829028-3058d400-6640-11eb-9df0-6bbeccc2d052.gif)
 
+![resume](https://user-images.githubusercontent.com/57735283/97096199-545a5180-161d-11eb-9a91-eb7c132ef55f.gif)
 
 ## Self imposed rules
 
