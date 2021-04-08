@@ -1,10 +1,6 @@
-# React Portfolio
-## Description
- <p>Welcome to my full stack portfolio! I designed a responsive website to show off the different projects I have been working on. I used React to create a mobile responsive portfolio. Feel free to take a look at how I used React to create my website.
+# React Portfolio :
 
-Thanks!
-
-Kenneth Kopelson</p>
+Welcome to my full stack portfolio! I designed a responsive website to show off the different projects I have been working on. I used React to create a mobile responsive portfolio. Feel free to take a look at how I used React to create my website.
 
 ## Overview
  * Project link: https://kopelson.github.io/React_Portfolio/#/
